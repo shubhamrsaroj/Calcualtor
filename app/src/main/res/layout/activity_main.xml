@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="378dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="6dp"
+        android:background="#040303"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/allclearr"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="90dp"
+                android:layout_height="96dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:onClick="all_clear"
+                android:text="@string/ac"
+                android:textAlignment="center"
+                android:textColor="#FF5722"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:cornerRadius="50dp"
+                app:rippleColor="#201313" />
+
+            <ImageButton
+                android:id="@+id/cross"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="90dp"
+                android:layout_height="96dp"
+                android:contentDescription="@string/todo"
+                android:onClick="back"
+                app:cornerRadius="50dp"
+                app:rippleColor="#F8F8F8"
+                app:srcCompat="@drawable/mypicture"
+                tools:ignore="ImageContrastCheck" />
+
+            <Button
+                android:id="@+id/floatvalue"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="90dp"
+                android:layout_height="96dp"
+                android:onClick="floatt"
+                android:text="@string/floatte"
+                android:textColor="#FF5722"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:cornerRadius="50dp"
+                app:rippleColor="#201313" />
+
+            <Button
+                android:id="@+id/division"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="90dp"
+                android:layout_height="96dp"
+                android:onClick="division"
+                android:text="@string/division"
+                android:textColor="#FF5722"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:cornerRadius="50dp"
+                app:rippleColor="#201313" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/seven"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="90dp"
+                android:layout_height="96dp"
+                android:onClick="seven"
+                android:text="@string/_7"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:cornerRadius="50dp"
+                app:rippleColor="#201313" />
+
+            <Button
+                android:id="@+id/eight"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="90dp"
+                android:layout_height="96dp"
+                android:onClick="eight"
+                android:text="@string/_8"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:cornerRadius="50dp"
+                app:rippleColor="#201313" />
+
+            <Button
+                android:id="@+id/nine"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="90dp"
+                android:layout_height="96dp"
+                android:onClick="nine"
+                android:text="@string/_9"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:cornerRadius="50dp"
+                app:rippleColor="#201313" />
+
+            <Button
+                android:id="@+id/multiply"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="90dp"
+                android:layout_height="96dp"
+                android:onClick="multiply"
+                android:text="@string/multiply"
+                android:textColor="#FF5722"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:cornerRadius="50dp"
+                app:rippleColor="#201313" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/four"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="90dp"
+                android:layout_height="96dp"
+                android:onClick="four"
+                android:text="@string/_4"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:cornerRadius="50dp"
+                app:rippleColor="#201313" />
+
+            <Button
+                android:id="@+id/five"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="90dp"
+                android:layout_height="96dp"
+                android:onClick="five"
+                android:text="@string/_5"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:cornerRadius="50dp"
+                app:rippleColor="#201313" />
+
+            <Button
+                android:id="@+id/six"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="90dp"
+                android:layout_height="96dp"
+                android:onClick="six"
+                android:text="@string/_6"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:cornerRadius="50dp"
+                app:rippleColor="#201313" />
+
+            <Button
+                android:id="@+id/substraction"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="90dp"
+                android:layout_height="96dp"
+                android:onClick="minus"
+                android:text="@string/minus"
+                android:textColor="#FF5722"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:cornerRadius="50dp"
+                app:rippleColor="#201313" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/one"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="90dp"
+                android:layout_height="96dp"
+                android:onClick="one"
+                android:text="@string/_1"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:cornerRadius="50dp"
+                app:rippleColor="#201313" />
+
+            <Button
+                android:id="@+id/two"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="90dp"
+                android:layout_height="96dp"
+                android:onClick="two"
+                android:text="@string/_2"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:cornerRadius="50dp"
+                app:rippleColor="#201313" />
+
+            <Button
+                android:id="@+id/three"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="90dp"
+                android:layout_height="96dp"
+                android:onClick="three"
+                android:text="@string/_3"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:cornerRadius="50dp"
+                app:rippleColor="#201313" />
+
+            <Button
+                android:id="@+id/plus"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="90dp"
+                android:layout_height="96dp"
+                android:onClick="plus"
+                android:text="@string/pluss"
+                android:textAlignment="center"
+                android:textColor="#FF5722"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:cornerRadius="50dp"
+                app:rippleColor="#201313" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/zero"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="90dp"
+                android:layout_height="96dp"
+                android:onClick="zero"
+                android:text="@string/_0"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"
+                app:cornerRadius="50dp"
+                app:rippleColor="#201313" />
+
+            <Button
+                android:id="@+id/dot"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="90dp"
+                android:layout_height="96dp"
+                android:onClick="dot"
+                android:text="@string/dot"
+                android:textSize="25sp"
+                app:cornerRadius="50dp"
+                app:rippleColor="#201313" />
+
+            <Button
+                android:id="@+id/bracket"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="96dp"
+                android:onClick="bracket"
+                android:text="@string/Paranthseses"
+                android:textSize="25sp"
+                app:cornerRadius="50dp"
+                app:rippleColor="#201313"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/equalto"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="90dp"
+                android:layout_height="96dp"
+                android:onClick="equal_to"
+                android:text="@string/equalto"
+                android:textAlignment="center"
+                android:textColor="#FF5722"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:cornerRadius="50dp"
+                app:rippleColor="#201313" />
+        </TableRow>
+
+    </TableLayout>
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="395dp"
+        android:layout_height="207dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="3dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
